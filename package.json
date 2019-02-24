@@ -1,5 +1,5 @@
 {
-  "name": "red-contrib-tasmotadashbutton",
+  "name": "node-red-contrib-tasmotadashbutton",
   "version": "1.0.0",
   "description": "A node red dash button connected to a tasmota switch",
   "main": "index.js",
