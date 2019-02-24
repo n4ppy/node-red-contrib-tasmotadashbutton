@@ -1,5 +1,5 @@
 module.exports = function(RED) {
-    var ui = require('../node-red-dashboard/ui')(RED);
+    var ui = require('~/.node-red/node_modules/node-red-dashboard/ui')(RED);
 
     function ButtonNode(config) {
         RED.nodes.createNode(this, config);
