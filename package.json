@@ -1,13 +1,13 @@
 {
   "name": "node-red-contrib-tasmotadashbutton",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A node red dash button connected to a tasmota switch",
   "node-red" : {
     "nodes": {
         "tasmotadashbutton": "tasmotadashbutton.js"
     }
   },
-  "main": "index.js",
+  "main": "none",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
