@@ -1,0 +1,22 @@
+{
+  "name": "red-contrib-tasmotadashbutton",
+  "version": "1.0.0",
+  "description": "A node red dash button connected to a tasmota switch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n4ppy/node-red-contrib-tasmotadashbutton.git"
+  },
+  "keywords": [
+    "nodered"
+  ],
+  "author": "Franc Schiphorst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n4ppy/node-red-contrib-tasmotadashbutton/issues"
+  },
+  "homepage": "https://github.com/n4ppy/node-red-contrib-tasmotadashbutton#readme"
+}
