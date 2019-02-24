@@ -1,9 +1,13 @@
 module.exports = function(RED) {
-    var ui = require('~/.node-red/node_modules/node-red-dashboard/ui')(RED);
+    var ui = undefined;
 
     function ButtonNode(config) {
-        RED.nodes.createNode(this, config);
         var node = this;
+            if(ui === undefined) {
+                // load Dashboard API
+                ui = RED.require("node-red-dashboard")(RED);
+            }
+        RED.nodes.createNode(this, config);
 
         var group = RED.nodes.getNode(config.group);
         if (!group) { return; }
